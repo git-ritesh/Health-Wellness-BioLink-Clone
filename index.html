@@ -1,46 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Health & Wellness Biolink</title>
-  <!-- imports font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
-  <!-- External CSS Link -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Health & Wellness Bio Link</title>
+  </head>
+  <body>
+    <main>
+      <div class="page-container">
+        <div class="container">
+          <div class="com-preview">
+            <nav>
+              <ul>
+                <li>
+                  <ion-icon
+                    class="close-nav"
+                    name="close-circle-outline"
+                  ></ion-icon>
+                </li>
+                <li>
+                  <ion-icon
+                    class="close-nav"
+                    name="add-circle-outline"
+                  ></ion-icon>
+                </li>
+                <li>
+                  <ion-icon
+                    class="close-nav"
+                    name="remove-circle-outline"
+                  ></ion-icon>
+                </li>
+              </ul>
+            </nav>
 
-  <div class="container">
-    <!-- navbar -->
-    <nav>
-      <ul>
-        <!-- icons -->
-        <li><ion-icon class="icons" name="add-circle-outline"></ion-icon></li>
-        <li><ion-icon class="icons" name="remove-circle-outline"></ion-icon></li>
-        <li><ion-icon class="icons" name="close-circle-outline"></ion-icon></li>
-      </ul>
-    </nav>
-    <!-- horizontal ruler/ divider -->
-    <hr>
+            <hr />
 
-    <h1>All1 Vita</h1>
+            <h1 class="company-name">All1 Vita</h1>
+            <p class="description">Premium Nutritional Supplements</p>
+          </div>
+        </div>
 
-    <p>Premium Nutritional Supplements</p>
-    
-  </div>
+        <div class="button-container">
+          <div class="row-one">
+            <a href="#"><button class="ref-buttons about">About Us</button></a>
+            <a href="#"><button class="ref-buttons shop">Our Shop</button></a>
+            <a href="#"
+              ><button class="ref-buttons packs">Bundle Packs</button></a
+            >
+          </div>
 
-  <button>About Us</button>
-  <button>Our Shop</button>
-  <button>Bundle Packs</button>
-  <button>Vegan Products</button>
-  <button>Blog</button>
-  <button>Contact Us</button>
+          <div class="row-two">
+            <a href="#"
+              ><button class="ref-buttons prod">Vegan Products</button></a
+            >
+            <a href="#"><button class="ref-buttons blog">Blog</button></a>
+            <a href="#"
+              ><button class="ref-buttons contact">Contact Us</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
 
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
