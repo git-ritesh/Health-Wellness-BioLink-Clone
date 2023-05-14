@@ -1,5 +1,122 @@
 @font-face {
-  font-family: OpenSauceOne-SemiBold;
+  font-family: "OpenSauce";
   src: url(Fonts/OpenSauceOne-SemiBold.ttf);
 }
 
+@font-face {
+  font-family: "OpenSauceBold";
+  src: url(Fonts/OpenSauceSans-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5be49;
+  color: #272727;
+  margin-top: 100px;
+}
+
+ul {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  width: 50px;
+}
+
+.close-nav {
+  width: 16px;
+  height: 16px;
+  color: #272727;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.close-nav:hover {
+  color: #f5be49;
+}
+
+hr {
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.com-preview {
+  width: 400px;
+  margin: 0 15px 65px 15px;
+  background-color: #fff;
+  border: 2px solid #272727;
+  border-radius: 4px;
+  padding: 10px 0;
+  box-shadow: 7px 7px 0px #272727;
+}
+
+.company-name,
+.description {
+  text-align: center;
+}
+
+.company-name {
+  font-size: 50px;
+  font-family: "OpenSauceBold";
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 13px;
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.ref-buttons {
+  display: inline-block;
+  font-family: "OpenSauce";
+  font-size: 21px;
+  padding: 20px 0px;
+  width: 250px;
+  border: 3px solid #272727;
+  border-radius: 10px;
+  box-shadow: 7px 7px 0px #272727;
+  cursor: pointer;
+  transition: color 0.25s, background-color 0.25s, box-shadow 0.25s;
+}
+
+.ref-buttons:hover {
+  color: #f5be49;
+  background-color: #272727;
+  box-shadow: none;
+}
+
+.row-one,
+.row-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 0 15px;
+}
+
+.row-two {
+  margin-bottom: 40px;
+}
