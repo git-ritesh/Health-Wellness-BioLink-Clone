@@ -1,6 +1,4 @@
 # Health & Wellness BioLink Webpage Clone
-
-A Health and Wellness Biolink Webpage Clone.
 ## [Click Here](https://git-ritesh.github.io/health-wellness-biolink/) to see the webpage Live.
 
 ### Webpage Preview - Landscape
